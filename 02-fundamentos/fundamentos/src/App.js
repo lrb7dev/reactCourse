@@ -1,4 +1,5 @@
 import './App.css';
+import Challenge from './components/Challenge';
 import Events from './components/Events';
 import FirstCompoent from './components/FirstComponent';
 import MyComponent from './components/MyComponent';
@@ -16,6 +17,8 @@ function App() {
         <TemplateExpressions></TemplateExpressions>
         {/* Eventos */}
       <Events></Events>  
+      {/* desafio 02 */}
+      <Challenge></Challenge>
     </div>
   );
 }
