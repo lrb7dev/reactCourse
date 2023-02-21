@@ -2,6 +2,7 @@
 import './App.css';
 
 import Jazz from "./assets/jazz.jpg"
+import ListRender from './components/ListRender';
 import ManageData from './components/ManageData';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <div>
         <img src={Jazz} alt="" />
       </div>
-      <ManageData></ManageData>  
+      <ManageData></ManageData>
+      <ListRender></ListRender>  
     </div>
   );
 }
