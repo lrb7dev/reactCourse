@@ -10,13 +10,13 @@ function App() {
     <div className="App">
       <h1>Avançando em React</h1>
       {/* imagem em public */}
-      <div>
+      {/* <div>
         <img src="/zombie.png" alt="punk zombie" />
-      </div>
+      </div> */}
       {/* imagem em assets */}
-      <div>
+      {/* <div>
         <img src={Jazz} alt="" />
-      </div>
+      </div> */}
       <ManageData></ManageData>
       <ListRender></ListRender>  
     </div>
