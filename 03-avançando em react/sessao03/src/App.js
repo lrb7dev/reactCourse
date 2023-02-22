@@ -2,6 +2,7 @@
 import './App.css';
 
 import Jazz from "./assets/jazz.jpg"
+import ConditionalRender from './components/ConditionalRender';
 import ListRender from './components/ListRender';
 import ManageData from './components/ManageData';
 
@@ -17,8 +18,10 @@ function App() {
       {/* <div>
         <img src={Jazz} alt="" />
       </div> */}
-      <ManageData></ManageData>
-      <ListRender></ListRender>  
+      {/* <ManageData></ManageData>
+      <ListRender></ListRender>   */}
+      {/* conditional render */}
+      <ConditionalRender/>
     </div>
   );
 }
