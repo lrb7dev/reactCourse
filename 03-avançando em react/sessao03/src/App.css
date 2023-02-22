@@ -58,3 +58,6 @@ li {
 .color02 {
   color: #5d6daa;
 }
+.line {
+  border-top: #468885 2px solid;
+}
