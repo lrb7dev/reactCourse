@@ -4,6 +4,7 @@ import './App.css';
 
 import Jazz from "./assets/jazz.jpg"
 import ConditionalRender from './components/ConditionalRender';
+import DestructuringProps from './components/DestructuringProps';
 import ListRender from './components/ListRender';
 import ManageData from './components/ManageData';
 import TrabalhandoComProps from './components/TrabalhandoComProps';
@@ -27,7 +28,13 @@ function App() {
       {/* conditional render */}
       {/* <ConditionalRender/> */}
       {/* Formas de se passar as props */}
-      <TrabalhandoComProps name={nome} lastName={ultimoNome} age={30} />
+      {/* <TrabalhandoComProps name={nome} lastName={ultimoNome} age={30} /> */}
+      <DestructuringProps brand="BMW" km={89225} color="Azul" good={true}/>
+      {/* reaproveitando dados de um componente */}
+      <DestructuringProps brand="VW" km={123569} color="Branca" good={false}/>
+      <DestructuringProps brand="FORD" km={3211} color="Vermelho" good={true}/>
+      <DestructuringProps brand="MITSUBISHI" color="Cinza" km={11000} good={false}/>
+    
     </div>
   );
 }

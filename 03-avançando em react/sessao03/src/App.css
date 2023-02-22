@@ -42,3 +42,19 @@ img {
   width:400px;
   height: 300px;
 }
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;;
+}
+
+.color01 {
+  color: #468885;
+}
+
+.color02 {
+  color: #5d6daa;
+}
