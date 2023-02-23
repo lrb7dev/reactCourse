@@ -1,0 +1,14 @@
+.color-01 {
+    color: chartreuse;
+}
+
+p {
+    color: aqua;
+    background-color: black;
+    padding: 5px;
+}
+
+.my-paragraph {
+    color: #5ddaaa;
+    background-color: brown;
+}
