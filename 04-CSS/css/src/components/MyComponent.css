@@ -12,3 +12,13 @@ p {
     color: #5ddaaa;
     background-color: brown;
 }
+
+.red-title {
+    background-color: #5ddaaa;
+    color: #000;
+}
+
+.title {
+    color: #cadcad;
+    background-color: #000;
+}
