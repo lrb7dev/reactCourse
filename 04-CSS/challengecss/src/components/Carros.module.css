@@ -1,0 +1,9 @@
+.personalize {
+    list-style-type: none;
+    color: rgb(0, 132, 158);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span {
+    color: black;
+}
