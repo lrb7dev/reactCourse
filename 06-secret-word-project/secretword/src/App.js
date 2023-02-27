@@ -29,6 +29,11 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState("")
   const [letters, setLetters] = useState([])
 
+  const[guessedLetters, setGuessedLetters] = useState([])
+  const[wrongLetters, setWrongLetters] = useState([])
+  const[guesses, setGuesses] = useState(3)
+  const[score, setScore] = useState(0)
+
   const selectWordAndCategory = () => {
     //the categories are the object keys of 'words'
     const categories = Object.keys(words)
@@ -80,7 +85,18 @@ function App() {
     <div className="App">
       {/* start the respective screen when aims the condition */}
       {gameStage === 'start' && <StartScreen startGame={startGame} />}
-      {gameStage === 'game' && <Game verifyLetter={verifyLetter} />}
+      {gameStage === 'game' && (
+        <Game 
+          verifyLetter={verifyLetter} 
+          selectedWord={selectedWord} 
+          selectedCategory={selectedCategory} 
+          letters={letters}
+          guessedLetters={guessedLetters}
+          wrongLetters={wrongLetters}
+          guesses={guesses}
+          score={score}  
+          />
+        )}
       {gameStage === 'end' && <GameOver retryGame={retryGame}/>}
     </div>
   );
