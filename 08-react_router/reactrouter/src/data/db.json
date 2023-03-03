@@ -1,0 +1,24 @@
+{
+    "weapons" : [
+        {
+            "id": 1,
+            "name": "Fire Sword",
+            "atk": 40
+        },
+        {
+            "id": 2,
+            "name": "War Mace",
+            "atk": 44
+        },
+        {
+            "id": 3,
+            "name": "Divine Battle Axe",
+            "atk": 55
+        },
+        {
+            "id": 4,
+            "name": "Dragon Lance",
+            "atk": 47
+        }
+    ]
+}
