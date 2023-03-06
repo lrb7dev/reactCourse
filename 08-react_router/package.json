@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "json-server": "^0.17.2",
-    "react-router": "^6.8.2"
-  }
-}
