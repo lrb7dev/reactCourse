@@ -93,7 +93,7 @@ const Register = () => {
             />
           </label>
           {!loading && <button className="btn">Cadastrar</button>}
-          {loading && <button className="btn" disable>Aguarde...</button>}
+          {loading && <button className="btn" disable="true">Aguarde...</button>}
           {/* if exists an error */}
           {error && <p className="error">{error}</p>}
         </form>
